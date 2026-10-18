@@ -1,0 +1,43 @@
+{
+  "pollSeconds": 60,
+  "thermal": {
+    "warnC": 80,
+    "pauseC": 88,
+    "criticalC": 95,
+    "criticalReadings": 3,
+    "criticalAction": "hibernate",
+    "cooldownC": 70,
+    "cooldownReadings": 5
+  },
+  "battery": {
+    "lowPct": 20,
+    "shutdownPct": 15
+  },
+  "lid": {
+    "serverModeOnClose": true
+  },
+  "serverMode": {
+    "displayOff": true,
+    "muteAudio": true,
+    "pauseApps": [
+      "chrome",
+      "msedge",
+      "Discord",
+      "Notion",
+      "steam",
+      "steamwebhelper",
+      "EpicGamesLauncher",
+      "EpicWebHelper",
+      "RiotClientServices",
+      "RiotClientUx",
+      "RiotClientUxRender",
+      "RobloxPlayerBeta",
+      "Figma",
+      "figma_agent"
+    ]
+  },
+  "alerts": {
+    "discordWebhookUrl": "",
+    "repeatMinutes": 30
+  }
+}
